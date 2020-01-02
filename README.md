@@ -79,9 +79,12 @@ cd stc51_prj_more_files/src
 make
 
 ```
-自动在主目录生成文件夹`bin``build`
-`bin`存放.bin文件用于烧录MCU
-`build`存放编译生成的其他文件
+
+自动在主目录生成文件夹 `bin` `build`;
+
+`bin`存放.bin和.hex文件用于烧录MCU;
+
+`build`存放编译生成的其他文件;
 
 `make clean` 清理文件,不会删除文件夹;
 `make call`删除所有文件；
