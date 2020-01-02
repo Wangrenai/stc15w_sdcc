@@ -1,9 +1,9 @@
-##前提
+## 前提
 
 - 现在用的是超极本，USB接口还需另外拓展，采用的是ARM的cpu,使用的是树莓派3B，进行测试；
 - windows下keil软件是好用，到时毕竟是商业软件，破解的期限将至。
 
-##安装环境搭建
+## 安装环境搭建
 
 - 自动安装
 
@@ -36,15 +36,15 @@ pip3 install stcgal
 ```
 
 
-##安装make
+## 安装make
 
 使用的是makefile
-###自动安装
+### 自动安装
 ```
 sudo apt install make
 ```
 
-###手动安装
+### 手动安装
 
 ```
 1、查看make版本，在浏览器搜索：ftp://ftp.gnu.org/gnu/make/ 可进入下载页面
@@ -69,7 +69,7 @@ sudo apt install make
 
 
 ```
-##使用例程
+## 使用例程
 
 ```
 git clone https://github.com/Wangrenai/stc15w_sdcc.git
@@ -86,7 +86,7 @@ make
 `make clean` 清理文件,不会删除文件夹;
 `make call`删除所有文件；
 
-希望对搭建有帮助
+希望对大家有帮助,祝大家2020新年快乐！
 
 
 
